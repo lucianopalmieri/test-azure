@@ -1,0 +1,5 @@
+customSteps: |
+  save expression "2 * 2" as "aaaa"
+  Check stored value "aaaa" contains "4"
+  wait 2 sec
+labels: []
